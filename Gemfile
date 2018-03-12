@@ -2,7 +2,7 @@ source :rubygems
 
 gem 'sinatra'
 gem 'activerecord'
-gem 'sintrat-activerecord'
+gem 'sinatra-activerecord'
 gem 'pg'
 gem 'rake'
 
