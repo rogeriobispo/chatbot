@@ -15,7 +15,6 @@ GEM
     arel (9.0.0)
     ast (2.4.0)
     bond (0.5.1)
-    byebug (10.0.2)
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
     database_cleaner (1.7.0)
@@ -37,12 +36,12 @@ GEM
       activesupport (>= 4.2)
       arel (>= 6)
     powerpack (0.1.1)
-    pry (0.11.3)
-      coderay (~> 1.1.0)
-      method_source (~> 0.9.0)
-    pry-byebug (3.6.0)
-      byebug (~> 10.0)
-      pry (~> 0.10)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry_debug (0.1.0)
+      pry (~> 0.9.0)
     rack (2.0.5)
     rack-protection (2.0.1)
       rack
@@ -87,6 +86,7 @@ GEM
     sinatra-activerecord (2.0.13)
       activerecord (>= 3.2)
       sinatra (>= 1.0)
+    slop (3.6.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
     tux (0.3.0)
@@ -108,7 +108,7 @@ DEPENDENCIES
   ffaker
   pg
   pg_search
-  pry-byebug
+  pry_debug
   rack-test
   rake
   rspec
@@ -121,4 +121,4 @@ RUBY VERSION
    ruby 2.3.7p456
 
 BUNDLED WITH
-   1.16.1
+   1.16.2

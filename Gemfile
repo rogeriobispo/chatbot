@@ -10,7 +10,7 @@ gem 'rake'
 
 group :development do
   gem 'rubocop'
-  gem 'pry-byebug'
+  gem 'pry_debug'
   gem 'tux' # equivalente rails c
 end
 

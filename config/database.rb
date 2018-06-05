@@ -5,7 +5,7 @@ configure :development do
     database: 'chatbot_development',
     pool: 5,
     username: 'postgres',
-    host: 'postgres'
+    host: '127.0.0.1'
   }
 end
 
@@ -16,7 +16,7 @@ configure :test do
     database: 'chatbot_test',
     pool: 5,
     username: 'postgres',
-    host: 'postgres'
+    host: '127.0.0.1'
   }
 end
 

@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 2018_05_14_205840) do
   end
 
   create_table "links", force: :cascade do |t|
-    t.string "name"
+    t.string "url"
     t.integer "company_id"
   end
 
